@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "PubSub\Publisher\Publisher.csproj", "{4819B7ED-A3B0-4605-8725-B6B1FBAC01AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber", "PubSub\Subscriber\Subscriber.csproj", "{22CA3058-1209-4137-9233-D22272E9EA0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reciever", "BasicQueue\Reciever\Reciever.csproj", "{06332AEE-EEDA-4C73-A17A-A8FF1472F4B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "BasicQueue\Sender\Sender.csproj", "{55F4EB39-4D51-4EB9-8E47-3158224FCE32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicQueue", "BasicQueue", "{33579A7A-783D-480D-ABD4-16B1D16AA75F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PubSub", "PubSub", "{619EDF85-1492-418E-8A50-24996F22CDCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Topic", "Topic", "{AA86DB34-9F34-4897-9D09-EFED9DD807B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicPub", "Topic\TopicPub\TopicPub.csproj", "{53D7AD98-BC18-4E96-B42E-0E19F21E4500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicSub", "TopicSub\TopicSub.csproj", "{2A2A9CB3-E2C8-4B2E-95E1-34ADE2F1F2C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4819B7ED-A3B0-4605-8725-B6B1FBAC01AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4819B7ED-A3B0-4605-8725-B6B1FBAC01AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4819B7ED-A3B0-4605-8725-B6B1FBAC01AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4819B7ED-A3B0-4605-8725-B6B1FBAC01AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22CA3058-1209-4137-9233-D22272E9EA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22CA3058-1209-4137-9233-D22272E9EA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22CA3058-1209-4137-9233-D22272E9EA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22CA3058-1209-4137-9233-D22272E9EA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06332AEE-EEDA-4C73-A17A-A8FF1472F4B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06332AEE-EEDA-4C73-A17A-A8FF1472F4B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06332AEE-EEDA-4C73-A17A-A8FF1472F4B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06332AEE-EEDA-4C73-A17A-A8FF1472F4B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F4EB39-4D51-4EB9-8E47-3158224FCE32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F4EB39-4D51-4EB9-8E47-3158224FCE32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F4EB39-4D51-4EB9-8E47-3158224FCE32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F4EB39-4D51-4EB9-8E47-3158224FCE32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D7AD98-BC18-4E96-B42E-0E19F21E4500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D7AD98-BC18-4E96-B42E-0E19F21E4500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D7AD98-BC18-4E96-B42E-0E19F21E4500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D7AD98-BC18-4E96-B42E-0E19F21E4500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A2A9CB3-E2C8-4B2E-95E1-34ADE2F1F2C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2A9CB3-E2C8-4B2E-95E1-34ADE2F1F2C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2A9CB3-E2C8-4B2E-95E1-34ADE2F1F2C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2A9CB3-E2C8-4B2E-95E1-34ADE2F1F2C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4819B7ED-A3B0-4605-8725-B6B1FBAC01AD} = {619EDF85-1492-418E-8A50-24996F22CDCB}
+		{22CA3058-1209-4137-9233-D22272E9EA0C} = {619EDF85-1492-418E-8A50-24996F22CDCB}
+		{06332AEE-EEDA-4C73-A17A-A8FF1472F4B8} = {33579A7A-783D-480D-ABD4-16B1D16AA75F}
+		{55F4EB39-4D51-4EB9-8E47-3158224FCE32} = {33579A7A-783D-480D-ABD4-16B1D16AA75F}
+		{53D7AD98-BC18-4E96-B42E-0E19F21E4500} = {AA86DB34-9F34-4897-9D09-EFED9DD807B1}
+		{2A2A9CB3-E2C8-4B2E-95E1-34ADE2F1F2C7} = {AA86DB34-9F34-4897-9D09-EFED9DD807B1}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://pradeepl.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PubSub\\Publisher\\Publisher.csproj
+		SccProjectTopLevelParentUniqueName1 = MyRabbit.sln
+		SccProjectName1 = PubSub/Publisher
+		SccLocalPath1 = PubSub\\Publisher
+		SccProjectUniqueName2 = PubSub\\Subscriber\\Subscriber.csproj
+		SccProjectTopLevelParentUniqueName2 = MyRabbit.sln
+		SccProjectName2 = PubSub/Subscriber
+		SccLocalPath2 = PubSub\\Subscriber
+		SccProjectUniqueName3 = BasicQueue\\Reciever\\Reciever.csproj
+		SccProjectTopLevelParentUniqueName3 = MyRabbit.sln
+		SccProjectName3 = BasicQueue/Reciever
+		SccLocalPath3 = BasicQueue\\Reciever
+		SccProjectUniqueName4 = BasicQueue\\Sender\\Sender.csproj
+		SccProjectTopLevelParentUniqueName4 = MyRabbit.sln
+		SccProjectName4 = BasicQueue/Sender
+		SccLocalPath4 = BasicQueue\\Sender
+		SccProjectUniqueName5 = Topic\\TopicPub\\TopicPub.csproj
+		SccProjectTopLevelParentUniqueName5 = MyRabbit.sln
+		SccProjectName5 = Topic/TopicPub
+		SccLocalPath5 = Topic\\TopicPub
+		SccProjectUniqueName6 = TopicSub\\TopicSub.csproj
+		SccProjectTopLevelParentUniqueName6 = MyRabbit.sln
+		SccProjectName6 = TopicSub
+		SccLocalPath6 = TopicSub
+	EndGlobalSection
+EndGlobal
